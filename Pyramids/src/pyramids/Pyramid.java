@@ -58,11 +58,11 @@ public class Pyramid {
 	
 	public String toString() {
 		String s = "";
-		s += "Pyramid Name: " + this.modernName + "\n";
-		s += "Pharaoh Name: " + this.pharaoh + "\n";
-		s += "Pyramid Height: " + this.height + "\n";
-		s += "Site Name: " + this.site + "\n";
-		s += "----------------------------------";
+		s += "Pyramid Name: " + this.modernName + " ";
+		s += "Pharaoh Name: " + this.pharaoh + " ";
+		s += "Pyramid Height: " + this.height + " ";
+		s += "Site Name: " + this.site + " ";
+		
 		return s;
 	}
 }
